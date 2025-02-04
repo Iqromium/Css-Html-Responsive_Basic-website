@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IQRA's Icecream Palace</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <section id="contact-header">
+        <div class="container">
+    <nav>
+        <div class="logo"></div>
+        <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./flavours.html">Flavours</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
+    </ul>
+    <div class="menu-btn"><img src="./imgic/men.png" alt=""></div>
+    </nav>
+
+    <div class="header-content">  
+        <h1>CONTACT US</h1>
+        </div>
+</div>
+</section>
+
+
+<section id="contact-us" class="container">
+<form action="#">
+    <h1>Get in Touch</h1>
+
+<div class="inputsWrapper">
+<input type="text" placeholder="Your Name">
+<input type="number" placeholder="Phone Number">
+<input type="email" placeholder="Email">
+<textarea name="Message" id=""></textarea>
+<button class="primary-btn">SEND NOW</button>
+</div>
+</form>
+
+
+<div class="address">
+    <h1>Talk to us</h1>
+
+    <div class="detailsWrapper">
+<div class="detail">
+    <img src="./imgic/email.png" alt="">
+   <div class="text">
+    <h6>EMAIL</h6>
+    <p>something@example.com</p>
+   </div>
+</div>
+
+
+<div class="detail">
+    <img src="./imgic/old-typical-phone.png" alt="">
+   <div class="text">
+    <h6>PHONE NUMBER</h6>
+    <p>+92 12345678910</p>
+   </div>
+</div>
+
+
+<div class="detail">
+    <img src="./imgic/home.png" alt="">
+   <div class="text">
+    <h6>ADDRESS</h6>
+    <p>6006, East-Road, Blue Street <br />
+      Santa Bay Lakeside
+    </p>
+   </div>
+</div>
+
+
+</div>
+<div class="followUs">
+<h3>Follow Us</h3>
+<ul class="socialLinks">
+    <li>
+    <a href="https://www.facebook.com"> <img src="./imgic/facebook.png" alt=""></a>
+    </li>
+    <li>
+  <a href="https://www.linkedin.com"> <img src="./imgic/linkedin.png" alt=""></a>
+   </li>
+    <li> 
+<a href="https://www.instagram.com"> <img src="./imgic/instagram.png" alt=""></a>
+</li>
+</ul>
+</div>
+</div>
+</section>
+
+
+<footer>
+    <ul class="footerlinks">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./flavours.html">Flavours</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+    </ul>
+    <h1 class="logo"></h1>
+    <p class="tm">©2024 IQRA KALIM. All rights reserved.</p>
+</footer>
+
+<script >
+const menuBtn = document.querySelector('.menu-btn')
+const navLinks = document.querySelector('.nav-links')
+
+menuBtn.addEventListener('click', function() {
+navLinks.classList.toggle("active");
+});
+</script>
+</body>
+</html>
